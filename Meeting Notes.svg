@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
+<svg viewBox="0 0 768 972" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+	<![CDATA[
+		text { font-family: Helvetica; text-transform: uppercase; }
+	]]>
+	</style>
+	<defs>
+		<line id="border" x1="0" y1="0" x2="768" y2="0" stroke-width="2" stroke="#cdcdcd" fill="none" />
+		<g id="todo">
+			<rect stroke-width="2" stroke="#cdcdcd" fill="none" width="20" height="20" x="10" y="12" />
+			<line x1="40" y1="50" x2="364" y2="50" stroke-width="2" stroke="#f2f2f2" fill="none" />
+		</g>
+
+		<g id="column">
+			<use xlink:href="#todo" transform="translate(0,80)" />
+			<use xlink:href="#todo" transform="translate(0,140)" />
+			<use xlink:href="#todo" transform="translate(0,210)" />
+		</g>
+	</defs>
+	<!--<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />-->
+	<!--<rect x="0" y="932" height="40" width="768" fill="grey" />-->
+
+	<g fill="#f2f2f2" font-size="16px">
+		<!-- pos: rect.x + (rect.width/2) - font-size / 2 -->
+		<text x="10" y="16">Date &amp; Place</text>
+		<text x="10" y="48">Subject</text>
+		<text x="393" y="16">Participants</text>
+		<text x="10" y="176">Notes</text>
+		<text x="10" y="736">Action Items:</text>
+	</g>
+
+	<line x1="383" y1="0" x2="383" y2="160" stroke-width="2" stroke="#cdcdcd" fill="none" />
+	<use xlink:href="#border" transform="translate(0,160)"/>
+
+	<use xlink:href="#border" transform="translate(0,742)" />
+	<use xlink:href="#column" transform="translate(0,672)"/>
+	<use xlink:href="#column" transform="translate(394,672)"/>
+</svg>
+
+
+
+
