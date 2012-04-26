@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!-- Creative Common License BY-NC-SA 3.0 Copyright: Philip Mateescu (http://philipm.at/projects/goodnotes_templates.html) -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
 <svg viewBox="0 0 768 972" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<defs>
@@ -7,23 +8,23 @@
 			<rect stroke-width="2" stroke="#cdcdcd" fill="none" width="20" height="20" x="10" y="20" />
 		</g>
 	</defs>
-	<!--<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />
-	<rect x="0" y="932" height="40" width="768" fill="grey" />-->
+	<!--<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />-->
+	<!--<rect x="0" y="932" height="40" width="768" fill="grey" />-->
 	<g id="mainlayer">
 		<use xlink:href="#todo" transform="translate(0,80)" />
 		<use xlink:href="#todo" transform="translate(0,140)" />
-		<use xlink:href="#todo" transform="translate(0,210)" />
-		<use xlink:href="#todo" transform="translate(0,270)" />
-		<use xlink:href="#todo" transform="translate(0,330)" />
-		<use xlink:href="#todo" transform="translate(0,390)" />
-		<use xlink:href="#todo" transform="translate(0,450)" />
-		<use xlink:href="#todo" transform="translate(0,510)" />
-		<use xlink:href="#todo" transform="translate(0,570)" />
-		<use xlink:href="#todo" transform="translate(0,630)" />
-		<use xlink:href="#todo" transform="translate(0,690)" />
-		<use xlink:href="#todo" transform="translate(0,750)" />
-		<use xlink:href="#todo" transform="translate(0,810)" />
-		<use xlink:href="#todo" transform="translate(0,870)" />
+		<use xlink:href="#todo" transform="translate(0,200)" />
+		<use xlink:href="#todo" transform="translate(0,260)" />
+		<use xlink:href="#todo" transform="translate(0,320)" />
+		<use xlink:href="#todo" transform="translate(0,380)" />
+		<use xlink:href="#todo" transform="translate(0,440)" />
+		<use xlink:href="#todo" transform="translate(0,500)" />
+		<use xlink:href="#todo" transform="translate(0,560)" />
+		<use xlink:href="#todo" transform="translate(0,620)" />
+		<use xlink:href="#todo" transform="translate(0,680)" />
+		<use xlink:href="#todo" transform="translate(0,740)" />
+		<use xlink:href="#todo" transform="translate(0,800)" />
+		<use xlink:href="#todo" transform="translate(0,860)" />
 	</g>
 </svg>
 
