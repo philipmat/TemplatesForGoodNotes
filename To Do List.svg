@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
+<svg viewBox="0 0 768 972" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<g id="todo">
+			<line x1="4" y1="4" x2="764" y2="4" stroke-width="2" stroke="#cdcdcd" fill="none" />
+			<rect stroke-width="2" stroke="#cdcdcd" fill="none" width="20" height="20" x="10" y="20" />
+		</g>
+	</defs>
+	<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />
+	<rect x="0" y="932" height="40" width="768" fill="grey" />
+	<g id="mainlayer">
+		<use xlink:href="#todo" transform="translate(0,80)" />
+		<use xlink:href="#todo" transform="translate(0,140)" />
+		<use xlink:href="#todo" transform="translate(0,210)" />
+		<use xlink:href="#todo" transform="translate(0,270)" />
+		<use xlink:href="#todo" transform="translate(0,330)" />
+		<use xlink:href="#todo" transform="translate(0,390)" />
+		<use xlink:href="#todo" transform="translate(0,450)" />
+		<use xlink:href="#todo" transform="translate(0,510)" />
+		<use xlink:href="#todo" transform="translate(0,570)" />
+		<use xlink:href="#todo" transform="translate(0,630)" />
+		<use xlink:href="#todo" transform="translate(0,690)" />
+		<use xlink:href="#todo" transform="translate(0,750)" />
+		<use xlink:href="#todo" transform="translate(0,810)" />
+		<use xlink:href="#todo" transform="translate(0,870)" />
+	</g>
+</svg>
+
+
