@@ -7,8 +7,8 @@
 			<rect stroke-width="2" stroke="#cdcdcd" fill="none" width="20" height="20" x="10" y="20" />
 		</g>
 	</defs>
-	<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />
-	<rect x="0" y="932" height="40" width="768" fill="grey" />
+	<!--<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />
+	<rect x="0" y="932" height="40" width="768" fill="grey" />-->
 	<g id="mainlayer">
 		<use xlink:href="#todo" transform="translate(0,80)" />
 		<use xlink:href="#todo" transform="translate(0,140)" />
