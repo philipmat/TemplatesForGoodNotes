@@ -1,11 +1,14 @@
-#!/usb/bin/python
+#!/usr/bin/python
+
 import argparse
 import tempfile
 from subprocess import call
 import sys
 
-WIDTH=768
-HEIGHT=972
+
+WIDTH = 768
+HEIGHT = 972
+
 
 def produce_png(file, width, height):
 	size = max(width, height)
@@ -14,8 +17,8 @@ def produce_png(file, width, height):
 	tmp = '.'
 	return_code = call(['qlmanage', '-t', '-o', tmp,  '-s %s' % size, file])
 	if (return_code == 0):
-		adjust_png(resulting_file, width,height)
-	
+		adjust_png(resulting_file, width, height)
+
 
 def adjust_png(file, width, height):
 	resulting_file = file.replace('.svg', '')
@@ -30,17 +33,18 @@ def adjust_png(file, width, height):
 
 def main(argv):
 	parser = argparse.ArgumentParser(description='Processes SVG.')
-	parser.add_argument('-g', '--geometry', dest='geometry', default='%sx%s' % (WIDTH, HEIGHT),
+	parser.add_argument('-g', '--geometry', dest='geometry',
+			default='%sx%s' % (WIDTH, HEIGHT),
 			help='Geometry in width x height')
 	parser.add_argument('files', metavar='FILE', nargs='+', help='Name of SVG file.')
 
 	args = parser.parse_args(argv)
 
 	width, height = args.geometry.upper().split('X')
-	width, height = int(width),int(height)
+	width, height = int(width), int(height)
 
 	for f in args.files:
-		produce_png(f, width, height) 
+		produce_png(f, width, height)
 
 
 if __name__ == "__main__":
