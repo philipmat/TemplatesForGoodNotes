@@ -5,7 +5,7 @@
 	<defs>
 		<g id="todo">
 			<line x1="4" y1="4" x2="764" y2="4" stroke-width="2" stroke="#cdcdcd" fill="none" />
-			<rect stroke-width="2" stroke="#cdcdcd" fill="none" width="20" height="20" x="10" y="20" />
+			<rect stroke-width="2" stroke="#cdcdcd" fill="none" width="20" height="20" x="10" y="24" />
 		</g>
 	</defs>
 	<!--<rect x="0" y="0" height="972" width="768" fill="none" stroke="black" />-->
