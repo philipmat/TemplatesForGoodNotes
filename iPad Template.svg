@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!-- Creative Common License BY-NC-SA 3.0 Copyright: Philip Mateescu (http://philipm.at/projects/goodnotes_templates.html) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
+<svg viewBox="0 0 768 972" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+	<![CDATA[
+		text { font-family: Helvetica; text-transform: uppercase; }
+	]]>
+	</style>
+	<defs>
+		<line id="gridx" x1="86" y1="93" x2="648" y2="93" stroke="#f2f2f2" stroke-width="2" stroke-dasharray="2 18" />
+		<line id="gridy" x1="86" y1="93" x2="86" y2="843" stroke="#f2f2f2" stroke-width="2" stroke-dasharray="2 18" />
+		<line id="ui-line-p" x1="86" y1="0" x2="648" y2="0" stroke="#f2f2f2" />
+		<line id="ui-line-l" x1="0" y1="93" x2="0" y2="843" stroke="#f2f2f2" />
+		<g id="screen-portrait">
+			<!--
+				for a screen of 768x1024 translated into 562x750
+				that resize factors are 
+					x = 0.73177088333
+					y = 0.732421875 (this is the more important one)
+				Typical iOS dimensions:
+				status bar 20 = 14.6484
+				nav bar 44 = 32.2265
+				tab bar 49 = 35.8886 (from bottom)
+			-->
+			<rect x="86" y="93" width="562" height="14.6484" fill="gray" fill-opacity="0.5" stroke-width="0" />
+			<use xlink:href="#ui-line-p" transform="translate(0, 140.2968)" />
+			<use xlink:href="#ui-line-p" transform="translate(0, 807.1114)" />
+		</g>
+		<g id="screen-landscape-cw">
+			<rect x="633.3516" y="93" width="14.6486" height="750" fill="gray" fill-opacity="0.5" stroke-width="0" />
+			<use xlink:href="#ui-line-l" transform="translate(601.1251, 0)" />
+			<use xlink:href="#ui-line-l" transform="translate(121.8886, 0)" />
+		</g>
+		<g id="screen-landscape-ccw" transform="translate(734,936)"> <!-- trial & error -->
+			<use xlink:href="#screen-landscape-cw" transform="rotate(180)" />
+		</g>
+	</defs>
+	<!--
+	<rect x="0" y="0" height="972" width="768" fill="none" stroke="blue" stroke-width="1" />
+	<rect x="0" y="932" height="40" width="768" fill="grey" />
+	-->
+
+	<!--
+	<image x="31" y="0" height="1437" width="1124"
+		xlink:href="file:///Users/philip/Projects/TemplatesForGoodNotes/iPad.jpg"
+		transform="scale(0.65)"
+		/>
+	-->
+	<g transform="translate(20,0)">
+		<rect x="5" y="7" width="719"  height="922" rx="46" ry="46" fill="none" stroke="#a0a0a0" stroke-width="4" />
+		<rect x="7" y="9" width="715" height="918"
+			rx="44" ry="44"
+			fill="black" fill-opacity="0.5"
+			stroke-width="0"
+			/>
+		<circle cx="366" cy="890" r="20" fill="black" fill-opacity="0.05" />
+		<rect x="359" y="883" width="14" height="14"
+			rx="3" ry="3"
+			stroke="#a0a0a0" fill="none" />
+
+		<!-- THE SCREEN -->
+		<rect x="86" y="93" width="562" height="750"
+			fill="white"
+			stroke-width="0"
+			/>
+
+		<!-- convert.py three times using each of the following lines in succession -->
+		<use xlink:href="#screen-portrait" />
+		<!--<use xlink:href="#screen-landscape-cw" />-->
+		<!--<use xlink:href="#screen-landscape-ccw" />-->
+	</g>
+</svg>
+
+
+
+
+
